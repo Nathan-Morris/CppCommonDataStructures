@@ -5,7 +5,7 @@
 template<typename _Type>
 struct linkedlist_node {
 	_Type value;
-	linkedlist_node* next = NULL;
+	linkedlist_node<_Type>* next = NULL;
 };
 
 template<typename _Type>
